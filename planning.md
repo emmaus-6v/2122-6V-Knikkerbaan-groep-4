@@ -1,5 +1,4 @@
-# Planning - week 1
-## 11 oktober
+# Planning - week 41 (11 okt & 15 okt)
 - brainstormen (iedereen)
 - planning maken (iedereen)
 - kijken wat de minimale eisen zijn (Naomi)
