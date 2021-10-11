@@ -1,5 +1,5 @@
 # Planning - week 41 (11 okt & 15 okt)
-- brainstormen (iedereen)
+- ~~brainstormen (iedereen)
 - planning maken (iedereen)
 - kijken wat de minimale eisen zijn (Naomi)
 - ontwerp voor opvang knikkers maken (Fe en Fre)
