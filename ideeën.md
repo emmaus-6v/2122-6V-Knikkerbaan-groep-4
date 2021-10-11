@@ -12,5 +12,7 @@
 * servo: ?
 
 
-## Sensors, etc. die we willen gebruiken
-* 
+## Onderdelen, etc. die we willen gebruiken
+* LED lampjes (en dus weerstandjes en potmeter)
+* display
+* buzzer
