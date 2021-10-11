@@ -6,4 +6,4 @@
 - ~~scrumboard bijwerken (Fre)~~
 - code voor poortje maken (Naomi en Luuk)
 - ~~thema bedenken knikkerbaan (iedereen)~~
-- inventariseren welke onderdelen we tot onze beschikking hebben (Fe)
+- inventariseren welke onderdelen we tot onze beschikking hebben / waar staat de opdracht (Fe)
