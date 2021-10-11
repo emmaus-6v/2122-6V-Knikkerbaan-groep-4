@@ -5,3 +5,4 @@
 - ontwerp voor opvang knikkers maken (Fe en Fre)
 - ~~scrumboard bijwerken (Fre)~~
 - code voor poortje maken (Naomi en Luuk)
+- ~~thema bedenken knikkerbaan (iedereen)~~
