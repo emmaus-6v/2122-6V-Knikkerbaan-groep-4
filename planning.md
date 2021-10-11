@@ -1,5 +1,5 @@
-#Planning - week 1
-##11 oktober
+# Planning - week 1
+## 11 oktober
 - brainstormen (iedereen)
 - planning maken (iedereen)
 - kijken wat de minimale eisen zijn (Naomi)
