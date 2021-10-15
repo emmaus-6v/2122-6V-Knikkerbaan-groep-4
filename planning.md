@@ -7,3 +7,7 @@
 - code voor poortje maken (Naomi en Luuk)
 - ~~thema bedenken knikkerbaan (iedereen)~~
 - inventariseren welke onderdelen we tot onze beschikking hebben / waar staat de opdracht (Fe)
+
+
+# Planning - week 42 (herfstvakantie)
+- eventueel dingen afmaken die in week 41 niet af zijn gekomen 
