@@ -24,4 +24,4 @@
 * knopjes voor interactief gedeelte
 * infrarood-sensor (rood op 5V, zwart ground, wit port)
 
-##
+## omg lelijk
