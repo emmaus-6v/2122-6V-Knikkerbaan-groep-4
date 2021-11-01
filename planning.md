@@ -21,5 +21,5 @@
 - Code voor poortje maken (Naomi en Luuk)
 
 
-# Planning - week 45
-- Toetsweek
+# Planning - week 45 (toetsweek)
+- 
