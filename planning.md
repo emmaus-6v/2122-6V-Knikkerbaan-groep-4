@@ -1,9 +1,9 @@
 # Planning - week 41 (11 okt & 15 okt)
-- ~~brainstormen (iedereen)~~
-- ~~planning maken (iedereen)~~
-- ~~kijken wat de minimale eisen zijn (Naomi)~~
-- ~~scrumboard bijwerken (Fre)~~
-- ~~thema bedenken knikkerbaan (iedereen)~~
+- brainstormen (iedereen)
+- planning maken (iedereen)
+- kijken wat de minimale eisen zijn (Naomi)
+- scrumboard bijwerken (Fre)
+- thema bedenken knikkerbaan (iedereen)
 - inventariseren welke onderdelen we tot onze beschikking hebben / waar staat de opdracht (Fe)
 
 
@@ -16,4 +16,9 @@
 - Ontwerp voor opvang knikkers maken (Fe en Fre)
 
 # Planning - week 44
-- code voor poortje maken (Naomi en Luuk)
+- Code voor poortje maken (Naomi en Luuk)
+- Ontwerp maken voor de knikkerbaan (Fre en Fe)
+- 
+
+# Planning - week 45
+- Toetsweek
