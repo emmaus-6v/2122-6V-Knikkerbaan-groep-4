@@ -14,11 +14,12 @@
 - Uitleg krijgen over de opdracht
 - Leren voor de toetsweek
 - Ontwerp voor opvang knikkers maken (Fe en Fre)
+- Ontwerp maken voor de knikkerbaan (Naomi en Luuk)
 
 # Planning - week 44
+- Ontwerp laten controleren door docent 
 - Code voor poortje maken (Naomi en Luuk)
-- Ontwerp maken voor de knikkerbaan (Fre en Fe)
-- 
+
 
 # Planning - week 45
 - Toetsweek
