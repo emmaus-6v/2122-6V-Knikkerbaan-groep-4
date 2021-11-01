@@ -1,24 +1,32 @@
-/* Sweep
- by BARRAGAN <http://barraganstudio.com>
- This example code is in the public domain.
+/* Sweep by BARRAGAN http://barraganstudio.com This example code is in the public domain.
 
- modified 8 Nov 2013
- by Scott Fitzgerald
- http://www.arduino.cc/en/Tutorial/Sweep
-*/
+  modified 8 Nov 2013 by Scott Fitzgerald http://www.arduino.cc/en/Tutorial/Sweep */
 
 #include <Servo.h>
 
-Servo myservo;  // maakt object Servo
-// twelve servo objects can be created on most boards
+Servo myservo; // maakt object Servo
+unsigned long servoTimer = 0;
+boolean poort = false;
 
 void setup() {
-  myservo.attach(9);  //servo aangesloten op pin 9
+  Serial.begin(9600);
+  Serial.println("setup");
+  myservo.attach(9);
+  myservo.write(0);
+  servoTimer = millis() + 2000;
 }
 
 void loop() {
-  myservo.write(0);
-  delay(2000);
-    myservo.write(90);
-  delay(10000);
+  Serial.println("loop");
+  if (millis() > servoTimer) {
+    if (poort == true) {
+      myservo.write(0);
+      servoTimer = millis() + 2000;
+    }
+    else {
+      myservo.write(90);
+      servoTimer = millis() + 4000;
+    }
+    poort = !poort;
+  }
 }
