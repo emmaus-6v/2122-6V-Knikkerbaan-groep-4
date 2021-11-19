@@ -21,5 +21,11 @@
 - Code voor poortje maken (Naomi en Luuk)
 
 
-# Planning - week 45 (toetsweek)
+# Planning - week 45 (toetsweek deel 1)
 - 
+
+# Planning - week 46 (toetsweek deel 2)
+- Onderzoek naar de code van de teller
+- Hoe we gebruik kunnen maken van classes voor het poortje (evt. vaker gebruiken voor andere poortjes)
+
+# Planning - week 47 (de week dat we super veel gaan doen!)
