@@ -1,5 +1,7 @@
 #include <Arduino_JSON.h>
 
+// dit is onzin
+
 KnikkerPoort poortBoven = KnikkerPoort (BOVEN_POORT_PIN, 0, 90);
 WiFiCommunicator wifi = WiFiCommunicator(WIFI_NETWERK, WIFI_WACHTWOORD, SERVER_DOMEINNAAM);
 Teller tellerA = Teller(TELLER_A_PIN);
