@@ -28,4 +28,8 @@
 - Onderzoek naar de code van de teller
 - Hoe we gebruik kunnen maken van classes voor het poortje (evt. vaker gebruiken voor andere poortjes)
 
-# Planning - week 47 (de week dat we super veel gaan doen!)
+# Planning - week 47 
+- Vragen hoe de arduino code werkt die we hebben gekregen en dit snappen
+
+# Planning - week 4(de week dat we super veel gaan doen!)
+- 
