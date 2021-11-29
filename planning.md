@@ -22,7 +22,6 @@
 
 
 # Planning - week 45 (toetsweek deel 1)
-- 
 
 # Planning - week 46 (toetsweek deel 2)
 - Onderzoek naar de code van de teller
