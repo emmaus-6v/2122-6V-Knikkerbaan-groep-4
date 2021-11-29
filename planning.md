@@ -30,5 +30,5 @@
 # Planning - week 47 
 - Vragen hoe de arduino code werkt die we hebben gekregen en dit snappen
 
-# Planning - week 4(de week dat we super veel gaan doen!)
+# Planning - week achtenveertig (de week dat we super veel gaan doen!)
 - 
