@@ -32,4 +32,4 @@
 - Uitlegvideo's kijken
 
 # Planning - week achtenveertig (de week dat we super veel gaan doen!)
-- 
+- De class van het poortje gebruiken om andere 'object poorten' te maken. 
