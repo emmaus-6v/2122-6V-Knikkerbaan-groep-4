@@ -9,7 +9,10 @@ CREATE TABLE sensorData (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   run INTEGER NOT NULL,
   stamp DATETIME NOT NULL,
-  aantalKnikkers INTEGER
+  aantalKnikkers INTEGER,
+  aantalRood INTEGER NOT NULL,
+  aantalGroen INTEGER NOT NULL,
+  aantalBlauw INTEGER NOT NULL 
 );
 
 CREATE TABLE instellingen (
@@ -18,6 +21,8 @@ CREATE TABLE instellingen (
   stamp DATETIME NOT NULL,
   wachttijdPoort INTEGER NOT NULL
 );
+
+
 
 
 /* Indien je standaard wat gegevens in de database wilt,
