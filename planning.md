@@ -33,3 +33,6 @@
 
 # Planning - week achtenveertig (de week dat we super veel gaan doen!)
 - De class van het poortje gebruiken om andere 'object poorten' te maken. 
+
+# Planning - Week 49
+- Filmpjes kijke, code begrijpen en uitwerken.
