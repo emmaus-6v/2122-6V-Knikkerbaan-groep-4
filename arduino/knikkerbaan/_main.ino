@@ -1,6 +1,7 @@
 #include <Arduino_JSON.h>
 
-KnikkerPoort poortBoven;
+KnikkerPoort poortEen;
+KnikkerPoort poortTwee;
 WiFiCommunicator wifi = WiFiCommunicator(WIFI_NETWERK, WIFI_WACHTWOORD, SERVER_DOMEINNAAM);
 Teller tellerA = Teller(TELLER_A_PIN);
 
@@ -9,13 +10,15 @@ unsigned long tijdVoorContactMetServer = 0;
 
 void setup() {
   Serial.begin(9600);
-  poortBoven = KnikkerPoort (BOVEN_POORT_PIN, 0, 90);
+  poortEen = KnikkerPoort (POORT_EEN_PIN, 0, 90);
+  poortTwee = KnikkerPoort (POORT_TWEE_PIN, 0, 90);
 
   wifi.begin();
 
   wifi.stuurVerzoek("/api/set/nieuwerun", "");
 
-  poortBoven.open();
+  poortEen.open();
+  poortTwee.open();
 }
 
 
@@ -25,8 +28,9 @@ void loop() {
 
   
   // pauzeer de knikkerbaan als het tijd is voor contact met server
-  if (millis() > tijdVoorContactMetServer && poortBoven.getOpen()) {
-    poortBoven.sluit();
+  if (millis() > tijdVoorContactMetServer && poortEen.getOpen()) {
+    poortEen.sluit();
+    poortTwee.sluit();
   }
 
   // knikkerbaan is leeggelopen, er zijn geen sensors dit iets moeten meten
@@ -39,6 +43,7 @@ void loop() {
     // bereken de nieuwe tijd waarop er weer met de server gecommuniceerd moet worden
     tijdVoorcontactMetServer = millis() + (unsigned long)serverContactInterval * 1000;
     // en zet nu het poortje weer open:
-    poortBoven.open();
+    poortEen.open();
+    poorTwee.open();
   }
 }
