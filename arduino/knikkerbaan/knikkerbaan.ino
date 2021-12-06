@@ -2,7 +2,8 @@
 
 //declareer hier je globale constanten:
 
-const int BOVEN_POORT_PIN = 7;    // pin van servo die bovenste poort regelt
+const int POORT_EEN_PIN = 7;    // pin van servo die bovenste poort regelt
+const int POORT_TWEE_PIN = 8;
 const int LEEGLOOP_TIJD = 5000;   // tijd die knikkers nodig hebben om na het
                                   // sluiten van de poort langs alle sensors te komen
 
