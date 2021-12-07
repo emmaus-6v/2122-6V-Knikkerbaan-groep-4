@@ -10,8 +10,8 @@ unsigned long tijdVoorContactMetServer = 0;
 
 void setup() {
   Serial.begin(9600);
-  poortEen = KnikkerPoort (POORT_EEN_PIN, 0, 90);
-  poortTwee = KnikkerPoort (POORT_TWEE_PIN, 0, 90);
+  poortEen.begin(POORT_EEN_PIN, 0, 90);
+  poortTwee.begin(POORT_TWEE_PIN, 0, 90);
 
   wifi.begin();
 
