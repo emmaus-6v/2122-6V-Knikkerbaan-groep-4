@@ -1,7 +1,7 @@
 #include <Arduino_JSON.h>
 
-KnikkerPoort poortEen;
-KnikkerPoort poortTwee;
+KnikkerPoort poortEen = KnikkerPoort();
+KnikkerPoort poortTwee = KnikkerPoort();
 WiFiCommunicator wifi = WiFiCommunicator(WIFI_NETWERK, WIFI_WACHTWOORD, SERVER_DOMEINNAAM);
 Teller tellerA = Teller(TELLER_A_PIN);
 
