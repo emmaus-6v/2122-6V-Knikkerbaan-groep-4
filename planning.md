@@ -29,10 +29,13 @@
 
 # Planning - week 47 
 - Vragen hoe de arduino code werkt die we hebben gekregen en dit snappen
-- Uitlegvideo's kijken
 
-# Planning - week achtenveertig (de week dat we super veel gaan doen!)
+# Planning - week 48
 - De class van het poortje gebruiken om andere 'object poorten' te maken. 
 
 # Planning - Week 49
-- Filmpjes kijke, code begrijpen en uitwerken.
+- Video's kijken
+
+# Planning - Week 50
+- Video's verder kijken en uitvoeren
+-
