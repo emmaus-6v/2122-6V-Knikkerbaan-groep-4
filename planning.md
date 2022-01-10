@@ -37,5 +37,9 @@
 - Video's kijken
 
 # Planning - Week 50
-- Video's verder kijken en uitvoeren
--
+- Video's verder kijken en uitvoeren om te kijken hoe het werkt
+
+# Planning - Week 1
+- Luuk: achtergrond verven plank
+- Naomi: afmeten van opvangbakken boven en onder
+- Fe en Frederique: kijken of de code van het poortje werkt, planning bijwerken
