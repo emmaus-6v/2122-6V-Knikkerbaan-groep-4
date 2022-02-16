@@ -1,6 +1,7 @@
 #include <Arduino_JSON.h>
 
 KnikkerPoort poortBoven = KnikkerPoort();
+KnikkerPoort poortMidden = KnikkerPoort();
 WiFiCommunicator wifi = WiFiCommunicator(WIFI_NETWERK, WIFI_WACHTWOORD, SERVER_DOMEINNAAM);
 Teller tellerA = Teller(TELLER_A_PIN);
 
@@ -10,18 +11,25 @@ unsigned long tijdVoorContactMetServer = 0;
 void setup() {
   Serial.begin(9600);
   poortBoven.begin(BOVEN_POORT_PIN, 0, 90);
+  poortMidden.begin(MIDDEN_POORT_PIN, 0, 90);
+  
 
-  wifi.begin();
+  //wifi.begin();
 
-  wifi.stuurVerzoek("/api/set/nieuwerun", "");
+ // wifi.stuurVerzoek("/api/set/nieuwerun", "");
 
   poortBoven.open();
+  poortMidden.open();
 }
 
 
 void loop() {
   // laat de teller detecteren:
   tellerA.update();
+
+  switchState = digitalRead(switchPin);
+
+  Serial.println(switchState);
 
   
   // pauzeer de knikkerbaan als het tijd is voor contact met server
@@ -39,6 +47,8 @@ void loop() {
     // maak de reeks variabelen voor achter de URL:
     String data = "knikkers=";
     data = tellerA.getAantal();
+
+    /*
 
     // als je meer waarden wilt toevoegen, ziet dat er zo uit:
     //data += "&blabla";
@@ -67,7 +77,7 @@ void loop() {
       // evt. foutmelding:
       Serial.println("FOUT: serverAntwoord kon niet worden verwerkt");
     }
-
+*/
     // servercommunicatie is afgerond
     // bepaal nu op welke tijd de knikkerbaan
     // opnieuw contact moet zoeken
@@ -76,4 +86,15 @@ void loop() {
     // en zet nu het poortje weer open:
     poortBoven.open();
   }
+
+
+
+   if (switchState == HIGH) {
+        //Serial.println("aan");
+        poortMidden.open();
+   } else {
+        //Serial.println("uit");
+         poortMidden.sluit();
+         
+         }    
 }
