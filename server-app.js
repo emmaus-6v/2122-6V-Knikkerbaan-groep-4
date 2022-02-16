@@ -47,6 +47,7 @@ function echoRequest(request, response) {
 // maakt een nieuwe run aan in de database
 // en geeft een oké terug
 function creeerNieuweRun(request, response) {
+  console.log("server krijgt verzoek voor nieuwe run binnen");
   // insert een nieuwe regel in de tabel 'runs'
   // waarin we alleen de huidige tijd (timestamp) meegeven
   db.prepare("INSERT INTO runs (stamp) VALUES (CURRENT_TIMESTAMP)").run();
