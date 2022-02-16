@@ -35,14 +35,23 @@ function draw() {
   // hieronder wordt schematisch een knikkerbaan getekend
 
   // achtergrond: houtkleur, kies gerust iets anders
-  background(175, 144, 105);
+  background(0, 158, 150);
 
-  // twee dikke strepen als 'opvangbak'
+  // de lijnen die ook op onze knikkerbaan zitten
   stroke(0, 0, 0);
   strokeWeight(10);
-  line(50, 20, 135, 60);
-  line(250, 20, 165, 60);
-
+  // fill(13, 255, 243); (deed het niet in khan)
+  line(100,20,220,40); // wachtlijn
+  line(80,100,260,80); // 1e lijn
+  line(40,140,220,160); // 2e lijn
+  line(200,200,260,190); // mini lijn
+  line(100,230,200,220); // val lijn
+  line(40,230,130,280); // snelheidslijn
+  line(60,330,150,310); // lijn naar links
+  line(150,310,240,330); // lijn naar rechts
+  // een slinger hier tussen?
+  line(40,550,135,580); // opvanglijn links
+  line(165,580,260,550); // opvanglijn rechts
   teller.show();
 }
 
