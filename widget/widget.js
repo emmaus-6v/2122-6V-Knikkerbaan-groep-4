@@ -21,11 +21,11 @@ function setup() {
 
   // maak een button en stel deze in
   button = createButton('verstuur');
-  button.position = (250,575);
+  button.position(200,625);
   button.mouseClicked(stuurNieuweInstellingen);
 
   wachtijdInput = createInput();
-  wachtijdInput.position = (225,70);
+  wachtijdInput.position(250,625);
   wachtijdInput.size(50);
 
 
@@ -62,6 +62,27 @@ function draw() {
   // een slinger hier tussen?
   line(40,550,135,580); // opvanglijn links
   line(165,580,260,550); // opvanglijn rechts
+
+  fill(191, 108, 0, 127);
+  stroke(127,63,120);
+  push();
+  translate(225, 25);
+  noStroke();
+  for (let i = 0; i < 10; i ++) {
+    ellipse(0, 1, 10, 60);
+    rotate(PI/5);
+  }
+  pop();
+
+  push();
+  translate(150, 300);
+  noStroke();
+  for (let i = 0; i < 10; i ++) {
+    ellipse(0, 1, 10, 60);
+    rotate(PI/5);
+  }
+  pop();
+
   teller.show();
 }
 
