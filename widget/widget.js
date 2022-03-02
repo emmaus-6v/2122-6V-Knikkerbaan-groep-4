@@ -83,6 +83,19 @@ function draw() {
   }
   pop();
 
+
+  for (var iets = 0; iets < 20; iets ++) {  // nog aanpassen: bloemmetje staat vast wanneer muis klinkt en los laat en de kleir moet random zijn alke ker dat je klikt
+    fill(50,200,random(0, 255));   //(random(140, 220), random(140, 220), random(140, 220));  
+    push();
+    translate(50, 50);
+    noStroke();
+    for (let i = 0; i < 10; i ++) {
+      ellipse(0, 1, 8, 40);
+      rotate(PI/random(3,7));
+    }
+  pop();
+  };
+
   teller.show();
 }
 
