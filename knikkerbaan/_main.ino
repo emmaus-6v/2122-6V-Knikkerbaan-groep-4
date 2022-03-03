@@ -47,12 +47,8 @@ void loop() {
     // maak de reeks variabelen voor achter de URL:
     String data = "knikkers=";
     data = tellerA.getAantal();
-
-    /*
-
-    // als je meer waarden wilt toevoegen, ziet dat er zo uit:
-    //data += "&blabla";
-    //data += 5;
+    data += "andereVariabele";
+    data += 5;
 
     // stuur deze data naar het juiste adres
     wifi.stuurVerzoek("/api/set/sensordata", data.c_str());
@@ -77,7 +73,7 @@ void loop() {
       // evt. foutmelding:
       Serial.println("FOUT: serverAntwoord kon niet worden verwerkt");
     }
-*/
+
     // servercommunicatie is afgerond
     // bepaal nu op welke tijd de knikkerbaan
     // opnieuw contact moet zoeken
