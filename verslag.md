@@ -1,5 +1,5 @@
 # Verslag eindopdracht 6V
-### gemaakt door *--leerling1--*, *--leerling2--*, *etc*
+### Gemaakt door *Frédérique Keijzer*, *Fé Laar*, *Naomi Lubeek* en "Luuk Roelofs*
 
 ---
 
