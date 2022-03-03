@@ -51,16 +51,18 @@
 
 # Planning - Week 4
 - Fe en Luuk: Plank monteren en in elkaar zeten
-
+- Naomi: ziek thuis
+- 
 # Planning - Week 5
 - Frederique: Arduino bouwen
 - Fe: widget aanpassen, lijnen erin gezet
+- Naomi: ziek thuis
 
 # Planning - Week 6
-
+- Naomi: ziek thuis
 
 # Planning - Week 7
-
+- Naomi: ziek thuis
 
 # Planning - Week 8
 
