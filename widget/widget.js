@@ -42,16 +42,12 @@ function setup() {
  * uitgevoerd door de p5 library, nadat de setup functie klaar is
  */
 function draw() {
-  // schrijf hieronder de code van je widget
-  // hieronder wordt schematisch een knikkerbaan getekend
-
   // achtergrond: houtkleur, kies gerust iets anders
   background(0, 158, 150);
 
   // de lijnen die ook op onze knikkerbaan zitten
   stroke(0, 0, 0);
   strokeWeight(10);
-  // fill(13, 255, 243); (deed het niet in khan)
   line(100,20,220,40); // wachtlijn
   line(80,100,260,80); // 1e lijn
   line(40,140,220,160); // 2e lijn
@@ -60,7 +56,6 @@ function draw() {
   line(40,230,130,280); // snelheidslijn
   line(60,330,150,310); // lijn naar links
   line(150,310,240,330); // lijn naar rechts
-  // een slinger hier tussen?
   line(40,550,135,580); // opvanglijn links
   line(165,580,260,550); // opvanglijn rechts
 
