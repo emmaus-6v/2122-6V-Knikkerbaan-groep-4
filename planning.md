@@ -51,16 +51,20 @@
 
 # Planning - Week 4
 - Fe en Luuk: Plank monteren en in elkaar zeten
+- naomie ziek thuis 
 
 # Planning - Week 5
 - Frederique: Arduino bouwen
 - Fe: widget aanpassen, lijnen erin gezet
+- naomie ziek thuis 
 
 # Planning - Week 6
-- Fe boemen toegevoegd 
+- Fe poortjes toegevoegd in JS
+- naomie ziek thuis 
 
 # Planning - Week 7
 - Fe en Frederique zoomen me CAM over arduino
+- naomie ziek thuis 
 
 # Planning - Week 8
 - Zoom meeting om arduino beter te begrijpen van Frederique
