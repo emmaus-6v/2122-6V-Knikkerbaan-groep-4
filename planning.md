@@ -21,9 +21,9 @@
 - Code voor poortje maken (Naomi en Luuk)
 
 
-# Planning - week 45 (toetsweek deel 1)
+# Planning - week 45 (toetsweek 1 deel 1)
 
-# Planning - week 46 (toetsweek deel 2)
+# Planning - week 46 (toetsweek 1 deel 2)
 - Onderzoek naar de code van de teller
 - Hoe we gebruik kunnen maken van classes voor het poortje (evt. vaker gebruiken voor andere poortjes)
 
@@ -47,24 +47,25 @@
 # Planning - Week 2
 - Frederique: plank schilderen
 
-# Planning - Week 3
+# Planning - Week 3 (toetsweek 2 deel 1)
 
-# Planning - Week 4
+# Planning - Week 4 (toetsweek 2 deel 2)
 - Fe en Luuk: Plank monteren en in elkaar zeten
-- naomie ziek thuis 
+- Naomie ziek thuis 
 
 # Planning - Week 5
 - Frederique: Arduino bouwen
 - Fe: widget aanpassen, lijnen erin gezet
-- naomie ziek thuis 
+- Naomie ziek thuis 
 
 # Planning - Week 6
 - Fe poortjes toegevoegd in JS
-- naomie ziek thuis 
+- Luuk, Fe en Frederrique balkjes gemonteerd op de plank 
+- Naomie ziek thuis 
 
 # Planning - Week 7
 - Fe en Frederique zoomen me CAM over arduino
-- naomie ziek thuis 
+- Naomie ziek thuis 
 
 # Planning - Week 8
 - Zoom meeting om arduino beter te begrijpen van Frederique
