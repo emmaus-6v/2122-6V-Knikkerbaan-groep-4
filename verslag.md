@@ -20,18 +20,11 @@ De knikkerbaan zendt de hoeveelheid getelde knikkers naar een server die de gege
 ### feature 3: Widget wisselt info uit met knikkerbaan
 In de browser kan met een URL een widget worden geladen. Deze geeft de knikkerbaan schematisch weer in een frame van 800x400px. De getelde knikkers en duur dat de poort openstaat worden hierin getoond. De duur dat de poort openstaat kan hierin worden veranderd. De knikkerbaan kan deze wachttijd van de server ontvangen en zijn werking erop aanpassen.
 
-### feature 4:
-<beschrijf hier feature 4>
+### feature 4: Eerste poortje
+Het eerste poortje kan de knikkers tegenhouden zodat er genoeg tijd is om te verbinden met de server en alle gegevens te verzamelen en te verzenden. Terwijl het poortje dicht is gaan er dus geen knikkers door de baan, waardoor de doorgegeven waardes kloppend zijn. In de widget is te zien of dit poortje open of dicht gaat, of dat het van positie veranderd.
 
-
-### feature 5:
-<beschrijf hier feature 5>
-
-
-### feature 6:
-<beschrijf hier feature 6>
-
-
+### feature 5: Tweede poortje
+Het tweede poortje bij de splitsing van de baan zorgt ervoor dat er willekeurig knikkers naar rechts of naar links worden gestuurd. In de widget is te zien in welke richting het poortje is gericht en hoeveel knikkers er per kant zijn voorbij gekomen. Het is mogelijk om in de widget aan te passen of het poortje naar links of naar rechts staat. 
 
 ## Evaluaties van scrumplanningen:
 
@@ -61,12 +54,14 @@ Uitdagingen die we tegenkwamen:
 
 
 ## Reflectie op opdracht
-#### --leerling1--
+#### --Frédérique Keijzer--
 *(50 - 100 woorden. Geef o.a. wat je tijdens deze opdracht beter onder de knie hebt gekregen en welk leerpunt je voor jezelf meeneemt)*
 
-#### --leerling2--
+#### --Fé Laar--
 
+#### --Naomi Lubeek--
+*Ondanks dat ik tijdens deze opdracht voor een groot gedeelte ziek ben geweest, heb ik er toch veel van geleerd. Ik snap nu veel beter hoe servers en communicatie werken en hoe je gebruik maakt van verschillende programmeertalen voor één project. Het belangrijkste wat ik heb geleerd is de toepassing van object georiënteerd programmeren in de praktijk. Tijdens deze opdacht hebben we er echt wat aan gehad. Het leerpunt wat ik meeneem is dat het verstanding is om gelijk van al je waardes variabelen te maken, zodat het later makkelijker is om deze aan te passen.*
 
-
+#### --Luuk Roelofs--
 
 ## Slot
