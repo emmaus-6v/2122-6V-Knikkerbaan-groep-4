@@ -60,7 +60,7 @@ Uitdagingen die we tegenkwamen:
 #### --Fé Laar--
 
 #### --Naomi Lubeek--
-*Ondanks dat ik tijdens deze opdracht voor een groot gedeelte ziek ben geweest, heb ik er toch veel van geleerd. Ik snap nu veel beter hoe servers en communicatie werken en hoe je gebruik maakt van verschillende programmeertalen voor één project. Het belangrijkste wat ik heb geleerd is de toepassing van object georiënteerd programmeren in de praktijk. Tijdens deze opdacht hebben we er echt wat aan gehad. Het leerpunt wat ik meeneem is dat het verstanding is om gelijk van al je waardes variabelen te maken, zodat het later makkelijker is om deze aan te passen.*
+*Ondanks dat ik tijdens deze opdracht voor een groot gedeelte ziek ben geweest, heb ik er toch veel van geleerd. Ik snap nu veel beter hoe servers en communicatie werken en hoe je gebruik maakt van verschillende programmeertalen voor één project. Het belangrijkste wat ik heb geleerd is de toepassing van object georiënteerd programmeren in de praktijk. Tijdens deze opdacht hebben we er echt wat aan gehad. Ook heb ik kennisgemaakt met scrum plannen, wat erg handig bleek. Het leerpunt wat ik meeneem is dat het verstanding is om gelijk van al je waardes variabelen te maken, zodat het later makkelijker is om deze aan te passen.*
 
 #### --Luuk Roelofs--
 
