@@ -43,3 +43,28 @@
 - Luuk: achtergrond verven plank
 - Naomi: afmeten van opvangbakken boven en onder
 - Fe en Frederique: kijken of de code van het poortje werkt, planning bijwerken
+
+# Planning - Week 2
+- Frederique: plank schilderen
+
+# Planning - Week 3
+
+# Planning - Week 4
+- Fe en Luuk: Plank monteren en in elkaar zeten
+
+# Planning - Week 5
+- Frederique: Arduino bouwen
+- Fe: widget aanpassen, lijnen erin gezet
+
+# Planning - Week 6
+
+
+# Planning - Week 7
+
+
+# Planning - Week 8
+
+
+# Planning - Week 9
+
+
