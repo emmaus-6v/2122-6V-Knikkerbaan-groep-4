@@ -35,6 +35,7 @@ function setup() {
 }
 
 
+
 /**
  * draw
  * de code in deze functie wordt meerdere keren per seconde
@@ -63,26 +64,14 @@ function draw() {
   line(40,550,135,580); // opvanglijn links
   line(165,580,260,550); // opvanglijn rechts
 
-  fill(191, 108, 0, 127);
-  stroke(127,63,120);
-  push();
-  translate(225, 25);
-  noStroke();
-  for (let i = 0; i < 10; i ++) {
-    ellipse(0, 1, 10, 60);
-    rotate(PI/5);
-  }
-  pop();
 
-  push();
-  translate(150, 300);
-  noStroke();
-  for (let i = 0; i < 10; i ++) {
-    ellipse(0, 1, 10, 60);
-    rotate(PI/5);
-  }
-  pop();
+  var poort = new Poort(225, 25); // object code voor de poortjes
+  poort.update();
+  poort.display();
 
+  var poort = new Poort(150,300);
+  poort.update();
+  poort.display();
 
   for (var iets = 0; iets < 20; iets ++) {  // nog aanpassen: bloemmetje staat vast wanneer muis klinkt en los laat en de kleir moet random zijn alke ker dat je klikt
     fill(50,200,random(0, 255));   //(random(140, 220), random(140, 220), random(140, 220));  
