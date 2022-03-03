@@ -56,20 +56,20 @@
 # Planning - Week 5
 - Frederique: Arduino bouwen
 - Fe: widget aanpassen, lijnen erin gezet
-- Naomie ziek thuis 
+- Naomi ziek thuis 
 
 # Planning - Week 6
 - Fe poortjes toegevoegd in JS
 - Luuk, Fe en Frederrique balkjes gemonteerd op de plank 
-- Naomie ziek thuis 
+- Naomi ziek thuis 
 
 # Planning - Week 7
 - Fe en Frederique zoomen me CAM over arduino
-- Naomie ziek thuis 
+- Naomi ziek thuis 
 
 # Planning - Week 8
 - Zoom meeting om arduino beter te begrijpen van Frederique
 
 # Planning - Week 9
-- Fe en Naomie class aangemaakt en database en server-app bijgewerkt 
+- Fe en Naomi class voor poortje in widget aangemaakt en database en server-app bijgewerkt 
 
