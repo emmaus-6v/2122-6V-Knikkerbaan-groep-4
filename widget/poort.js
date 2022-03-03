@@ -1,4 +1,4 @@
-class Poort { // dit is de class met de code voor de poortjes
+class Poort { // dit is de class met de code voor de poortjes in de widget
   
   constructor(newX, newY) {
     this.x = newX;
