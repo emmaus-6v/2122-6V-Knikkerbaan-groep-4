@@ -68,9 +68,9 @@ function getSensorData(request, response) {
 function setSensorData(request, response) {
   var aantalNieuweKnikkers = request.query.knikkers;
   var huidigeRunID = geefHoogsteRunID();
-  var SQL = `INSERT INTO sensorData (run, stamp, aantalKnikkers)
-             VALUES (?, CURRENT_TIMESTAMP, ?)`
-  db.prepare(SQL).run(huidigeRunID, aantalNieuweKnikkers);
+  var SQL = `INSERT INTO sensorData (run, stamp, aantalKnikkers, buttonState, poortPositie)
+             VALUES (?, CURRENT_TIMESTAMP, ?, ?, ?)`
+  db.prepare(SQL).run(huidigeRunID, aantalNieuweKnikkers, buttonState, poortPositie);
   response.status(200).send();
 }
 
