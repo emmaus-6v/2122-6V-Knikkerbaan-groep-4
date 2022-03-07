@@ -83,6 +83,70 @@ function draw() {
   poort.update();
   poort.display();
 
+  var poort = new Poort(225, 25); // object code voor de poortjes
+  poort.update();
+  poort.display();
+
+  var poort = new Poort(150,300);
+  poort.update();
+  poort.display();
+
+  // van boven naar beneden de decoratie 
+  var decoratie = new Decoratie(20, 20); // object code voor de decoratie bloemmen
+  decoratie.update();
+  decoratie.display();
+
+  var decoratie = new Decoratie(50, 20); 
+  decoratie.update();
+  decoratie.display();
+
+  var decoratie = new Decoratie(30, 50); 
+  decoratie.update();
+  decoratie.display();
+
+  var decoratie = new Decoratie(280, 230); 
+  decoratie.update();
+  decoratie.display();
+
+  var decoratie = new Decoratie(250, 250); 
+  decoratie.update();
+  decoratie.display();
+
+  var decoratie = new Decoratie(280, 270); 
+  decoratie.update();
+  decoratie.display();
+
+  var decoratie = new Decoratie(230, 275); 
+  decoratie.update();
+  decoratie.display();
+
+  var decoratie = new Decoratie(5, 260); 
+  decoratie.update();
+  decoratie.display();
+
+  var decoratie = new Decoratie(20, 280); 
+  decoratie.update();
+  decoratie.display();
+
+  var decoratie = new Decoratie(50, 290); 
+  decoratie.update();
+  decoratie.display();
+
+  var decoratie = new Decoratie(30, 300); 
+  decoratie.update();
+  decoratie.display();
+
+  var decoratie = new Decoratie(2, 330); 
+  decoratie.update();
+  decoratie.display();
+
+  var decoratie = new Decoratie(290, 370); 
+  decoratie.update();
+  decoratie.display();
+
+  var decoratie = new Decoratie(260, 390); 
+  decoratie.update();
+  decoratie.display();
 
   /*for (var iets = 0; iets < 20; iets ++) {  // nog aanpassen: bloemmetje staat vast wanneer muis klinkt en los laat en de kleir moet random zijn alke ker dat je klikt
     fill(50,200,random(0, 255));   //(random(140, 220), random(140, 220), random(140, 220));  
