@@ -4,6 +4,8 @@ KnikkerPoort poortBoven = KnikkerPoort();
 KnikkerPoort poortMidden = KnikkerPoort();
 WiFiCommunicator wifi = WiFiCommunicator(WIFI_NETWERK, WIFI_WACHTWOORD, SERVER_DOMEINNAAM);
 Teller tellerA = Teller(TELLER_A_PIN);
+Teller tellerB = Teller(TELLER_B_PIN);
+Teller tellerC = Teller(TELLER_C_PIN);
 
 int serverContactInterval = 15;                // 15 seconden
 unsigned long tijdVoorContactMetServer = 0;
@@ -27,6 +29,8 @@ void setup() {
 void loop() {
   // laat de teller detecteren:
   tellerA.update();
+  tellerB.update();
+  tellerC.update();
 
   bool switchState = digitalRead(switchPin);
   if (switchState == HIGH) {
@@ -60,6 +64,8 @@ void loop() {
     // maak de reeks variabelen voor achter de URL:
     String data = "knikkers=";
     data = tellerA.getAantal();
+    data = tellerB.getAantal();
+    data = tellerC.getAantal();
     data += "andereVariabele";
     data += 5;
 
