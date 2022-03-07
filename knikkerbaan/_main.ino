@@ -67,11 +67,10 @@ void loop() {
 
     // maak de reeks variabelen voor achter de URL:
     String data = "knikkers=";
-    data = tellerA.getAantal();
-    data = tellerB.getAantal();
-    data = tellerC.getAantal();
-    data += "andereVariabele";
-    data += 5;
+    data += tellerA.getAantal();
+    data += tellerB.getAantal();
+    data += tellerC.getAantal();
+    data += "poortPositie";
 
 
     // stuur deze data naar het juiste adres
