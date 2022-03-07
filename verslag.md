@@ -63,5 +63,6 @@ Uitdagingen die we tegenkwamen:
 *Ondanks dat ik tijdens deze opdracht voor een groot gedeelte ziek ben geweest, heb ik er toch veel van geleerd. Ik snap nu veel beter hoe servers en communicatie werken en hoe je gebruik maakt van verschillende programmeertalen voor één project. Het belangrijkste wat ik heb geleerd is de toepassing van object georiënteerd programmeren in de praktijk. Tijdens deze opdacht hebben we er echt wat aan gehad. Ook heb ik kennisgemaakt met scrum plannen, wat erg handig bleek. Het leerpunt wat ik meeneem is dat het verstanding is om gelijk van al je waardes variabelen te maken, zodat het later makkelijker is om deze aan te passen.*
 
 #### --Luuk Roelofs--
+*Ik heb geleerd hoe je gebruikt maakt vqn meerdere programmeertalen in 1 project. Ook heb ik geleerd hoe je dit in de realiteit toepast, om zo een mooie knikkerbaan te krijgen die fysieke als digitale functies heeft. Het belangrijkste punt dat ik meeneem is hoe je zowel digitale als fysieke functies met elkaar combineerd. Ook vond ik het werken met scrumboard fijn zodat je duidelijk ziet wat je te wachten staat en het overzicht behoudt.
 
 ## Slot
