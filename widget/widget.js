@@ -59,6 +59,12 @@ function draw() {
   line(40,550,135,580); // opvanglijn links
   line(165,580,260,550); // opvanglijn rechts
 
+  // zigzag rechter kant
+  line(260, 350, 170, 380);
+  line(150, 400, 240, 440);
+  line(260, 460, 170, 480);
+  line(150, 510, 240, 530);
+
 
   var poort = new Poort(225, 25); // object code voor de poortjes
   poort.update();
