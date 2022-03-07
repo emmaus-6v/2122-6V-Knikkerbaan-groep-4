@@ -6,6 +6,7 @@ WiFiCommunicator wifi = WiFiCommunicator(WIFI_NETWERK, WIFI_WACHTWOORD, SERVER_D
 Teller tellerA = Teller(TELLER_A_PIN);
 Teller tellerB = Teller(TELLER_B_PIN);
 Teller tellerC = Teller(TELLER_C_PIN);
+Buzzer buzzerA = Buzzer();
 
 
 int serverContactInterval = 15;                // 15 seconden
@@ -16,6 +17,7 @@ void setup() {
   Serial.begin(9600);
   poortBoven.begin(BOVEN_POORT_PIN, 10, 90);
   poortMidden.begin(MIDDEN_POORT_PIN, 10, 90);
+  buzzerA.begin(BUZZER_A_PIN, 1000, 500);
 
 
   wifi.begin();
@@ -39,6 +41,7 @@ void loop() {
       Serial.println("knop wordt ingedrukt");
       if (poortMidden.getOpen() == true) {
         poortMidden.sluit();
+        buzzerA.start();
       }
       else {
         poortMidden.open();
