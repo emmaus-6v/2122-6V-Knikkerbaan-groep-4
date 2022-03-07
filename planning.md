@@ -73,6 +73,6 @@
 # Planning - Week 9
 - Fe en Naomi class voor poortje in widget aangemaakt en database en server-app bijgewerkt 
 - Naomi: verslag maken
-
+- Luuk: verslag maken
 
 
