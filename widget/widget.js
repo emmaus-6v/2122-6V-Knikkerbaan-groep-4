@@ -5,10 +5,8 @@ var wachttijd = 15;             // wachttijd voor het poortje in seconden
 const UPDATE_INTERVAL = 5000;   // tijd in milliseconden tussen het door widget opvragen van gegevens
 var button;
 var teller;
-var poortPositie;
+var poortRichting;
 var wachtijdInput;
-
-//test
 
 
 /**
