@@ -5,6 +5,7 @@ var wachttijd = 15;             // wachttijd voor het poortje in seconden
 const UPDATE_INTERVAL = 5000;   // tijd in milliseconden tussen het door widget opvragen van gegevens
 var button;
 var teller;
+var poortPositie;
 var wachtijdInput;
 
 //test
@@ -181,6 +182,7 @@ function vraagSensorData() {
     if (request.status == 200) {
       console.log("Dit geeft de server terug:" + data);
       teller.aantal = data.aantalKnikkers;
+      poortPositie.richting = data.poortPositie;
     }
     else {
       console.log("server reageert niet zoals gehoopt");
