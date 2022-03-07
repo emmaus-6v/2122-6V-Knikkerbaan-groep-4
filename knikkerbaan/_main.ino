@@ -7,6 +7,7 @@ Teller tellerA = Teller(TELLER_A_PIN);
 Teller tellerB = Teller(TELLER_B_PIN);
 Teller tellerC = Teller(TELLER_C_PIN);
 
+
 int serverContactInterval = 15;                // 15 seconden
 unsigned long tijdVoorContactMetServer = 0;
 //int poortOpen = false;
@@ -104,5 +105,25 @@ void loop() {
   }
 
 
+  bool aantalKnikkersB = tellerB.getAantal();
+  int aantalKnikkersBTijd = 0;
+  if (aantalKnikkersB != previousaantalKnikkersB) {
+    Serial.println("knikker komt voorbij B");
+    aantalKnikkersBTijd = millis();
+  }
+
+  previousaantalKnikkersB = aantalKnikkersB;
+
+  bool aantalKnikkersC = tellerC.getAantal(); 
+  int aantalKnikkersCTijd = 0;
+  if (aantalKnikkersC != previousaantalKnikkersC) {
+    Serial.println("knikker komt voorbij C");
+    aantalKnikkersCTijd = millis();
+  }
+
+  previousaantalKnikkersC = aantalKnikkersC;
+  
+  snelheidKnikker = lengteKnikkerbaan / (aantalKnikkersCTijd - aantalKnikkersBTijd)
+  
 
 }
