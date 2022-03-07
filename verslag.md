@@ -4,7 +4,7 @@
 ---
 
 ## Inleiding
-Lorem ipsum...
+Voor onze knikkerbaan hebben wij als thema gekozen voor een mooie waterval. Het balletje wordt meegenomen door het avontuur van de waterval, en ervaart de verschillende banen die de waterval te bieden heeft. 
 
 
 
