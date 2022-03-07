@@ -58,6 +58,7 @@ Uitdagingen die we tegenkwamen: Het werken met de widget bleek een probleem te z
 *(50 - 100 woorden. Geef o.a. wat je tijdens deze opdracht beter onder de knie hebt gekregen en welk leerpunt je voor jezelf meeneemt)*
 
 #### --Fé Laar--
+*Tijdens de eerste uitleg van deze opdracht dacht ik bij mezelf: help wat een moeilijke opdracht. Dat viel echter wel mee, omdat we de opdracht verdeelden in stukjes. Dat moet ik ook meenemen voor andere opdrachten. Ik ben nu wel zelfverzekerder geworden als het gaat over mijn programmeer vaardigheden. Een master ben ik nog lang niet, maar na 3 jaar het vak informatica gevolgd te hebben, weet ik al een stuk meer dan ik ooit gedacht zou hebben. Door deze opdracht ben ik beter geworden in het programeren in JavaScrip en het herhalen van de Arduino was ook fijn. Informatica kan wel eens verwarrend zijn, maar zodra dat opgelost is, heb je echt wat bereikt. 
 
 #### --Naomi Lubeek--
 *Ondanks dat ik tijdens deze opdracht voor een groot gedeelte ziek ben geweest, heb ik er toch veel van geleerd. Ik snap nu veel beter hoe servers en communicatie werken en hoe je gebruik maakt van verschillende programmeertalen voor één project. Het belangrijkste wat ik heb geleerd is de toepassing van object georiënteerd programmeren in de praktijk. Tijdens deze opdacht hebben we er echt wat aan gehad. Ook heb ik kennisgemaakt met scrum plannen, wat erg handig bleek. Het leerpunt wat ik meeneem is dat het verstanding is om gelijk van al je waardes variabelen te maken, zodat het later makkelijker is om deze aan te passen.*
