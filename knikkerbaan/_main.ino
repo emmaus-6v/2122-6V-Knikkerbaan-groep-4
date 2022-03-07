@@ -85,12 +85,16 @@ void loop() {
 
 
 
-   if (switchState == HIGH) {
+     if (switchState == HIGH && poortOpen == false) {
         //Serial.println("aan");
         poortMidden.open();
+        poortOpen = true;
    } else {
         //Serial.println("uit");
+         if (switchState == LOW && poortOpen == true) {
          poortMidden.sluit();
-         
+         poortOpen = false;
          }    
-}
+       } 
+     }
+
