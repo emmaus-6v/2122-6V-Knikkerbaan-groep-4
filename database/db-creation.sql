@@ -11,7 +11,7 @@ CREATE TABLE sensorData (
   stamp DATETIME NOT NULL,
   aantalKnikkers INTEGER,
   buttonState INTEGER,
-  poortPositie VARCHAR(8)
+  poortPositie INTEGER
 );
 
 CREATE TABLE instellingen (
@@ -27,5 +27,5 @@ CREATE TABLE instellingen (
 /* Indien je standaard wat gegevens in de database wilt,
    voeg hieronder dan INSERT regels to */
 INSERT INTO runs (stamp) VALUES (CURRENT_TIMESTAMP);
-INSERT INTO sensorData (run, stamp, aantalKnikkers, buttonState, poortPositie) VALUES (1, CURRENT_TIMESTAMP, 21, 1, "links");
+INSERT INTO sensorData (run, stamp, aantalKnikkers, buttonState, poortPositie) VALUES (1, CURRENT_TIMESTAMP, 21, 1, 1);
 INSERT INTO instellingen (run, stamp, wachttijdPoort) VALUES (1, CURRENT_TIMESTAMP, 15);
