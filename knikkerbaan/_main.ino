@@ -7,16 +7,17 @@ Teller tellerA = Teller(TELLER_A_PIN);
 
 int serverContactInterval = 15;                // 15 seconden
 unsigned long tijdVoorContactMetServer = 0;
+//int poortOpen = false;
 
 void setup() {
   Serial.begin(9600);
-  poortBoven.begin(BOVEN_POORT_PIN, 0, 90);
-  poortMidden.begin(MIDDEN_POORT_PIN, 0, 90);
-  
+  poortBoven.begin(BOVEN_POORT_PIN, 10, 90);
+  poortMidden.begin(MIDDEN_POORT_PIN, 10, 90);
 
-  //wifi.begin();
 
- // wifi.stuurVerzoek("/api/set/nieuwerun", "");
+  wifi.begin();
+
+  wifi.stuurVerzoek("/api/set/nieuwerun", "");
 
   poortBoven.open();
   poortMidden.open();
@@ -27,11 +28,23 @@ void loop() {
   // laat de teller detecteren:
   tellerA.update();
 
-  switchState = digitalRead(switchPin);
+  bool switchState = digitalRead(switchPin);
+  if (switchState == HIGH) {
+    if (switchState != previousSwitchState) {
+      Serial.println("knop wordt ingedrukt");
+      if (poortMidden.getOpen() == true) {
+        poortMidden.sluit();
+      }
+      else {
+        poortMidden.open();
+      }
+    }
+  }
+  previousSwitchState = switchState;
 
-  Serial.println(switchState);
+//  Serial.println(switchState);
 
-  
+
   // pauzeer de knikkerbaan als het tijd is voor contact met server
   if (millis() > tijdVoorContactMetServer && poortBoven.getOpen()) {
     poortBoven.sluit();
@@ -50,12 +63,13 @@ void loop() {
     data += "andereVariabele";
     data += 5;
 
+
     // stuur deze data naar het juiste adres
     wifi.stuurVerzoek("/api/set/sensordata", data.c_str());
-
+/*
     // vraag bij de server de nieuwe instellingen op:
     String serverAntwoord = wifi.stuurVerzoek("/api/get/instellingen", "");
-    
+
     // om een beeld te geven van het antwoord: print in seriële monitor:
     Serial.println(serverAntwoord);
 
@@ -73,7 +87,7 @@ void loop() {
       // evt. foutmelding:
       Serial.println("FOUT: serverAntwoord kon niet worden verwerkt");
     }
-
+*/
     // servercommunicatie is afgerond
     // bepaal nu op welke tijd de knikkerbaan
     // opnieuw contact moet zoeken
@@ -85,16 +99,4 @@ void loop() {
 
 
 
-     if (switchState == HIGH && poortOpen == false) {
-        //Serial.println("aan");
-        poortMidden.open();
-        poortOpen = true;
-   } else {
-        //Serial.println("uit");
-         if (switchState == LOW && poortOpen == true) {
-         poortMidden.sluit();
-         poortOpen = false;
-         }    
-       } 
-     }
-
+}
