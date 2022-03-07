@@ -1,4 +1,4 @@
-class Poortpositie {
+class PoortRichting {
   x;
   y;
   richting;
@@ -6,7 +6,7 @@ class Poortpositie {
   constructor(_x, _y) {
     this.x = _x;
     this.y = _y;
-    this.richting = "links";
+    this.richting = 0;
   }
 
   show() {
