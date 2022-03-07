@@ -43,10 +43,10 @@ function setup() {
  */
 function draw() {
   // achtergrond: houtkleur, kies gerust iets anders
-  background(0, 158, 150);
+  background(60, 122, 222);
 
   // de lijnen die ook op onze knikkerbaan zitten
-  stroke(0, 0, 0);
+  stroke(45, 90, 170);
   strokeWeight(10);
   line(100,20,220,40); // wachtlijn
   line(80,100,260,80); // 1e lijn

@@ -10,7 +10,7 @@ class Poort { // dit is de class met de code voor de poortjes in de widget
   }
   
   display() {
-    fill(191, 108, 0, 127);
+    fill(82, 191, 126, 127);
     stroke(127,63,120);
     push();
     translate(this.x, this.y);
