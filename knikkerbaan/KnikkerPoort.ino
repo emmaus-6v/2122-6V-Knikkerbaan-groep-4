@@ -37,4 +37,7 @@ class KnikkerPoort {
     bool getOpen() {
       return isOpen;
     }
+      bool getRichting() {
+      return richting;
+    }
 };
