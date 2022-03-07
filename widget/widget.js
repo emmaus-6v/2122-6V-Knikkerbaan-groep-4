@@ -7,6 +7,8 @@ var button;
 var teller;
 var wachtijdInput;
 
+//test
+
 
 /**
  * setup
