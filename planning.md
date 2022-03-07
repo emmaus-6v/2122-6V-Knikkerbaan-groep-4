@@ -75,4 +75,8 @@
 - Naomi: verslag maken
 - Luuk: verslag maken
 
+# Planning - Week 10
+- Fe class aangemaakt voor decoratie en verder aan de widget gewerkt 
+- .
+- .
 
