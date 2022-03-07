@@ -1,5 +1,3 @@
-
-
 //declareer hier je globale constanten:
 
 const int BOVEN_POORT_PIN = 7;    // pin van servo die bovenste poort regelt
@@ -16,4 +14,9 @@ const int TELLER_C_PIN = 3;
 
 const int MIDDEN_POORT_PIN = 8;    // pin van servo die bovenste poort regelt
 int switchPin = 12;
-int switchState = LOW;
+int previousSwitchState = LOW;
+
+int previousaantalKnikkersB = 0;
+int previousaantalKnikkersC = 0;
+int snelheidKnikker = 0;
+const int lengteKnikkerbaan = 2; // in meters
