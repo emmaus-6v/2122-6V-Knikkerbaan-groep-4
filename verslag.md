@@ -50,7 +50,7 @@ De knikkerbaan en de widget wisselen de volgende data met elkaar uit:
 
 We hebben dat op deze manier genormaliseerd in een database opgenomen (neem een strokendiagram op). De reden dat we voor ... kiezen is...
 
-Uitdagingen die we tegenkwamen:
+Uitdagingen die we tegenkwamen: Het werken met de widget bleek een probleem te zijn. Ook hadden we moeite met onze ideeën uit te werken in de realiteit.
 
 
 ## Reflectie op opdracht
