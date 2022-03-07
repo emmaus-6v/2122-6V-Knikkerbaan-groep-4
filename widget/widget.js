@@ -65,6 +65,13 @@ function draw() {
   line(260, 460, 170, 480);
   line(150, 510, 240, 530);
 
+  // zigzag linkerkant 
+  line(40, 340, 100, 370);
+  line(100, 370, 40, 400);
+  line(40, 400, 100, 430);
+  line(100, 430, 40, 460);
+  line(40, 460, 100, 490);
+  line(100, 490, 70, 530);
 
   var poort = new Poort(225, 25); // object code voor de poortjes
   poort.update();
@@ -74,7 +81,8 @@ function draw() {
   poort.update();
   poort.display();
 
-  for (var iets = 0; iets < 20; iets ++) {  // nog aanpassen: bloemmetje staat vast wanneer muis klinkt en los laat en de kleir moet random zijn alke ker dat je klikt
+
+  /*for (var iets = 0; iets < 20; iets ++) {  // nog aanpassen: bloemmetje staat vast wanneer muis klinkt en los laat en de kleir moet random zijn alke ker dat je klikt
     fill(50,200,random(0, 255));   //(random(140, 220), random(140, 220), random(140, 220));  
     push();
     translate(50, 50);
@@ -85,9 +93,11 @@ function draw() {
     }
   pop();
   };
+*/
 
   teller.show();
-}
+
+};
 
 
 // stuurt een verzoek aan de server dat alle
