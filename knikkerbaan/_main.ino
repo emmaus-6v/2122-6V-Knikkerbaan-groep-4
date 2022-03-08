@@ -40,6 +40,7 @@ void loop() {
       Serial.println("knop wordt ingedrukt");
       if (poortMidden.getOpen() == true) {
         poortMidden.sluit();
+        poortMidden.veranderRichting();
         buzzerA.start();
       }
       else {
