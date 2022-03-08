@@ -1,6 +1,6 @@
-class Buzzer {
-  private:
-    int pin;
+class Buzzer {    // dit is de class voor de buzzer
+  private:        // de gegevens pin, frequentie en tijdsduur hebben we private gehouden
+    int pin;      // omdat je niet wilt dat anderen dit kunnen aanpassen
     int frequentie;
     int tijdsduur;
 
