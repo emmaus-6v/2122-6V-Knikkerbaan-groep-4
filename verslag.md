@@ -54,3 +54,4 @@ Uitdagingen die we tegenkwamen: Het werken met de widget bleek een probleem te z
 *Ik heb geleerd hoe je gebruikt maakt van meerdere programmeertalen in 1 project. Ook heb ik geleerd hoe je dit in de realiteit toepast, om zo een mooie knikkerbaan te krijgen die fysieke als digitale functies heeft. Het belangrijkste punt dat ik meeneem is hoe je zowel digitale als fysieke functies met elkaar combineert. Ook vond ik het werken met scrumboard fijn zodat je duidelijk ziet wat je te wachten staat en het overzicht behoudt.*
 
 ## Slot
+Over het algemeen zijn we erg blij met de knikkerbaan die we gemaakt hebben. Hij is erg mooi geworden en we zijn blij met hoe hij werkt. De samenwerking verliep prima en over het algemeen was het vooral een leuk, leerzaam en interessant project. We zijn blij met de dingen die we geleerd/verbeterd hebben en kijken positief terug op de opdracht.
