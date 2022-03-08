@@ -4,7 +4,7 @@
 ---
 
 ## Inleiding
-Het thema van onze knikkerbaan is waterval. De knikkers gaan mee met de waterval naar beneden waar ze door obstakels worden tegengehouden. Hierdoor worden de knikkers in 2 banen geleid. 
+Voor onze eindopdracht hebben wij een knikkerbaan gemaakt. Het thema van onze knikkerbaan is waterval. Door middel van poortjes en andere obstacels worden de knikkers mee met de waterval naar beneden genomen waar ze door allerlei opstakels worden opgevangen. Hierdoor worden op het einde bijvoorbeeld de knikkers in 2 banen geleid, waardoor de knikker dus niet één, maar twee routes kan bevaren. De poortjes worden door de Arduino aangestuurd. Daarnaast heeft de knikkerbaan een widget. Hieronder lees je welke features onze knikkerbaan heeft, een technische verantwoording, en kun je lezen hoe wij zelf de opdracht ervaren hebben.
 
 
 ## Features
