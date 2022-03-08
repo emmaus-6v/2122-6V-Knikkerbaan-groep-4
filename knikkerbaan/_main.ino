@@ -20,9 +20,9 @@ void setup() {
   buzzerA.begin(BUZZER_A_PIN, 1000, 500);
 
 
- // wifi.begin();
+  wifi.begin();
 
- // wifi.stuurVerzoek("/api/set/nieuwerun", "");
+  wifi.stuurVerzoek("/api/set/nieuwerun", "");
 
   poortBoven.open();
   poortMidden.open();
@@ -72,7 +72,6 @@ void loop() {
     data += tellerC.getAantal();
     data += "&poortPositie";
 
-/*
     // stuur deze data naar het juiste adres
     wifi.stuurVerzoek("/api/set/sensordata", data.c_str());
 
@@ -96,7 +95,7 @@ void loop() {
       // evt. foutmelding:
       Serial.println("FOUT: serverAntwoord kon niet worden verwerkt");
     }
-*/
+
     // servercommunicatie is afgerond
     // bepaal nu op welke tijd de knikkerbaan
     // opnieuw contact moet zoeken
@@ -124,7 +123,7 @@ void loop() {
   }
 
   previousaantalKnikkersC = aantalKnikkersC;
-  
+ 
   snelheidKnikker = lengteKnikkerbaan / (aantalKnikkersCTijd - aantalKnikkersBTijd);
   
 
