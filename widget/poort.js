@@ -19,7 +19,7 @@ class Poort { // dit is de class met de code voor de poortjes in de widget
       ellipse(0, 1, 10, 60);
       rotate(PI/5);
     }
-    pop();
+    pop();    // door het gebruik van push en pop kun je meerdere poorten tekenen
   }
 
 
