@@ -34,9 +34,7 @@ Voor de planning, zie planning.md
 
 De knikkers komen eerst langs een ir-sensor, die moet bijhouden hoeveel knikkers er voorbijkomen. Dan houdt de eerste knikkerpoort de knikkers tegen voor bepaald aantal seconden. Vervolgens komen de knikkers langs de tweede ir-sensor en derde ir-sensor, die de tijd bijhouden van de gepasseerde knikker. De afgelegde weg wordt gedeeld door het verschil van de tijd en zo krijg je de snelheid. Daarna komt de knikker bij een splitsing links of rechts. Door op de rode knop te drukken, draait het middelste poortje. Dit zorgt ervoor dat de knikker de andere kant op kan. Ook gaat er een buzzer af wanneer er op de knop wordt gedrukt. De knikkers gaan via de linker- of rechterroute naar beneden en komen uiteindelijk weer bijeen. De knikkerbaan hoort met de widget bepaalde data uit te wisselen, zoals het aantal knikkers en de richting van het middelste poortje.
 
-We hebben dat op deze manier genormaliseerd in een database opgenomen (neem een strokendiagram op). De reden dat we voor ... kiezen is...
-
-Uitdagingen die we tegenkwamen: Het werken met de widget bleek een probleem te zijn, zo is het niet geheel gelukt om de gegevens van de knikkerbaan uit te wisselen met de widget. Ook hadden we moeite met onze ideeën uit te werken in de realiteit. De snelheidssensor hebben we verder niet kunnen controleren. 
+Uitdagingen die we tegenkwamen: Het werken met de widget bleek een probleem te zijn, zo is het niet geheel gelukt om de gegevens van de knikkerbaan uit te wisselen met de widget. Ook hadden we moeite met onze ideeën uit te werken in de realiteit. We waren vrij lang bezig met de opstart en het opbouwen van de baan, waardoor we bijvoorbeeld niet meer iets hebben kunnen doen met de gegevens van de snelheidssensor. 
 
 
 ## Reflectie op opdracht
