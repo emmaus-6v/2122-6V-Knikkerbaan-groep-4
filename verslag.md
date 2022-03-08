@@ -41,20 +41,17 @@ We hebben er deze week voor gekozen om niet al te veel in te plannen ivm met de 
 
 
 ## Technische verantwoording
-Geef hier bijvoorbeeld de volgene informatie, maar voel je vrij er informatie aan toe te voegen.
 
-De Arduino werkt op de volgende manier:
-
-De knikkerbaan en de widget wisselen de volgende data met elkaar uit:
+De knikkers komen eerst langs een ir-sensor, die moet bijhouden hoeveel knikkers er voorbijkomen. Dan houdt de eerste knikkerpoort de knikkers tegen voor bepaald aantal seconden. Vervolgens komen de knikkers langs de tweede ir-sensor en derde ir-sensor, die de tijd bijhouden van de gepasseerde knikker. De afgelegde weg wordt gedeeld door het verschil van de tijd en zo krijg je de snelheid. Daarna komt de knikker bij een splitsing links of rechts. Door op de rode knop te drukken, draait het middelste poortje. Dit zorgt ervoor dat de knikker de andere kant op kan. Ook gaat er een buzzer af wanneer er op de knop wordt gedrukt. De knikkers gaan via de linker- of rechterroute naar beneden en komen uiteindelijk weer bijeen. De knikkerbaan hoort met de widget bepaalde data uit te wisselen, zoals het aantal knikkers en de richting van het middelste poortje.
 
 We hebben dat op deze manier genormaliseerd in een database opgenomen (neem een strokendiagram op). De reden dat we voor ... kiezen is...
 
-Uitdagingen die we tegenkwamen: Het werken met de widget bleek een probleem te zijn. Ook hadden we moeite met onze ideeën uit te werken in de realiteit.
+Uitdagingen die we tegenkwamen: Het werken met de widget bleek een probleem te zijn, zo is het niet geheel gelukt om de gegevens van de knikkerbaan uit te wisselen met de widget. Ook hadden we moeite met onze ideeën uit te werken in de realiteit. De snelheidssensor hebben we verder niet kunnen controleren. 
 
 
 ## Reflectie op opdracht
 #### --Frédérique Keijzer--
-*(50 - 100 woorden. Geef o.a. wat je tijdens deze opdracht beter onder de knie hebt gekregen en welk leerpunt je voor jezelf meeneemt)*
+*Ik vond het leuk dat er verschillende dingen gecombineerd werden, die we de afgelopen jaren hadden geleerd. Dit maakte het meteen ook een grote opdracht en wat lastiger. Gelukkig werkte je in een groepje en konden we zo elkaar vaak aanvullen. Verder heb ik tijdens deze opdracht meer begrip gekregen van object geörienteerd programmeren en kon ik het werken met arduino herhalen. Tot slot was het grappig om, na al die jaren, weer is bezig te zijn in het handvaardigheidlokaal!
 
 #### --Fé Laar--
 *Tijdens de eerste uitleg van deze opdracht dacht ik bij mezelf: help wat een moeilijke opdracht. Dat viel echter wel mee, omdat we de opdracht verdeelden in stukjes. Dat moet ik ook meenemen voor andere opdrachten. Ik ben nu wel zelfverzekerder geworden als het gaat over mijn programmeer vaardigheden. Een master ben ik nog lang niet, maar na 3 jaar het vak informatica gevolgd te hebben, weet ik al een stuk meer dan ik ooit gedacht zou hebben. Door deze opdracht ben ik beter geworden in het programmeren in JavaScript en het herhalen van de Arduino was ook fijn. Ook heb ik nu een veel beter beeld wat object georiënteerd programmeren in de praktijk doet. Informatica kan wel eens verwarrend zijn, maar zodra dat opgelost is, heb je echt wat bereikt. 
@@ -63,6 +60,6 @@ Uitdagingen die we tegenkwamen: Het werken met de widget bleek een probleem te z
 *Ondanks dat ik tijdens deze opdracht voor een groot gedeelte ziek ben geweest, heb ik er toch veel van geleerd. Ik snap nu veel beter hoe servers en communicatie werken en hoe je gebruik maakt van verschillende programmeertalen voor één project. Het belangrijkste wat ik heb geleerd is de toepassing van object georiënteerd programmeren in de praktijk. Tijdens deze opdacht hebben we er echt wat aan gehad. Ook heb ik kennisgemaakt met scrum plannen, wat erg handig bleek. Het leerpunt wat ik meeneem is dat het verstanding is om gelijk van al je waardes variabelen te maken, zodat het later makkelijker is om deze aan te passen.*
 
 #### --Luuk Roelofs--
-*Ik heb geleerd hoe je gebruikt maakt van meerdere programmeertalen in 1 project. Ook heb ik geleerd hoe je dit in de realiteit toepast, om zo een mooie knikkerbaan te krijgen die fysieke als digitale functies heeft. Het belangrijkste punt dat ik meeneem is hoe je zowel digitale als fysieke functies met elkaar combineerd. Ook vond ik het werken met scrumboard fijn zodat je duidelijk ziet wat je te wachten staat en het overzicht behoudt.*
+*Ik heb geleerd hoe je gebruikt maakt van meerdere programmeertalen in 1 project. Ook heb ik geleerd hoe je dit in de realiteit toepast, om zo een mooie knikkerbaan te krijgen die fysieke als digitale functies heeft. Het belangrijkste punt dat ik meeneem is hoe je zowel digitale als fysieke functies met elkaar combineert. Ook vond ik het werken met scrumboard fijn zodat je duidelijk ziet wat je te wachten staat en het overzicht behoudt.*
 
 ## Slot
