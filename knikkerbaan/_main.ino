@@ -34,14 +34,15 @@ void loop() {
   tellerB.update();
   tellerC.update();
 
+  // knop
   bool switchState = digitalRead(switchPin);
   if (switchState == HIGH) {
     if (switchState != previousSwitchState) {
-      Serial.println("knop wordt ingedrukt");
+      Serial.println("knop wordt ingedrukt"); // Knop wordt ingedrukt, het middelste poortje draait
       if (poortMidden.getOpen() == true) {
         poortMidden.sluit();
-        poortMidden.veranderRichting();
-        buzzerA.start();
+        poortMidden.veranderRichting(); // "richting" verandert
+        buzzerA.start(); // Buzzer maakt geluid wanneer er op de knop wordt gedrukt
       }
       else {
         poortMidden.open();
@@ -49,9 +50,6 @@ void loop() {
     }
   }
   previousSwitchState = switchState;
-
-//  Serial.println(switchState);
-
 
   // pauzeer de knikkerbaan als het tijd is voor contact met server
   if (millis() > tijdVoorContactMetServer && poortBoven.getOpen()) {
