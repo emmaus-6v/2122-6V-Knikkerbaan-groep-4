@@ -9,8 +9,8 @@ CREATE TABLE sensorData (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   run INTEGER NOT NULL,
   stamp DATETIME NOT NULL,
-  aantalKnikkers INTEGER, // Geeft het aantal knikkers aan 
-  buttonState INTEGER, // Geeft de status van de knop aan (0 = LOW, 1 = HIGH)
+  aantalKnikkers INTEGER, /* Geeft het aantal knikkers aan */
+  buttonState INTEGER, /* Geeft de status van de knop aan (0 = LOW, 1 = HIGH) */
   poortPositie INTEGER /* Geeft de richting aan van de poort (0 = de knikkers gaan naar links, 1 = de knikkers gaan naar rechts) */
 );
 
