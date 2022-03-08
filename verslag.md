@@ -11,19 +11,19 @@ Voor onze eindopdracht hebben wij een knikkerbaan gemaakt. Het thema van onze kn
 Beschrijf hier de eigenschappen van jullie knikkerbaan (gebruik gerust plaatjes) kijk in map fotos naar KnikkerBaan.png . De eerste paar zijn voorgegeven:
 
 ### feature 1: Opvangen van knikkers
-De knikkerbaan kan knikkers bovenin correct opvangen. De binnenkomende knikkers worden geteld en een poortje bepaalt of knikkers worden doorrollen of worden tegengehouden.
+De knikkerbaan kan knikkers bovenin correct opvangen. De binnenkomende knikkers worden geteld en een poortje bepaalt of knikkers mogen doorrollen of worden tegengehouden.
 
 ### feature 2: Doorgeven van gegevens aan server
 De knikkerbaan zendt de hoeveelheid getelde knikkers naar een server die de gegevens opslaat in een database. Deze server kan per 'run' (d.w.z. een nieuwe keer aangaan) gegevens bijhouden.
 
 ### feature 3: Widget wisselt info uit met knikkerbaan
-In de browser kan met een URL een widget worden geladen. Deze geeft de knikkerbaan schematisch weer in een frame van 800x400px. De getelde knikkers en duur dat de poort openstaat worden hierin getoond. De duur dat de poort openstaat kan hierin worden veranderd. De knikkerbaan kan deze wachttijd van de server ontvangen en zijn werking erop aanpassen.
+In de browser kan met een URL een widget worden geladen. Deze geeft de knikkerbaan schematisch weer in een frame van 600x300px. De getelde knikkers en duur dat de poort openstaat worden hierin getoond. De duur dat de poort openstaat kan hierin worden veranderd. De knikkerbaan kan deze wachttijd van de server ontvangen en zijn werking erop aanpassen.
 
 ### feature 4: Eerste poortje
 Het eerste poortje kan de knikkers tegenhouden zodat er genoeg tijd is om te verbinden met de server en alle gegevens te verzamelen en te verzenden. Terwijl het poortje dicht is gaan er dus geen knikkers door de baan, waardoor de doorgegeven waardes kloppend zijn. 
 
 ### feature 5: Tweede poortje
-Het tweede poortje bij de splitsing van de baan zorgt ervoor dat er willekeurig knikkers naar rechts of naar links worden gestuurd. De gegevens over de richting van het poortje, worden doorgegeven aan de widet.
+Het tweede poortje bij de splitsing van de baan zorgt ervoor dat de knikkers naar rechts of naar links worden gestuurd. Dit kan je zelf bepalen door middel van een knop. De gegevens over de richting van het poortje, worden doorgegeven aan de widet.
 
 ### feature 6: De buzzer
 De buzzer gaat af wanneer er op de knop gedrukt wordt. Zo zie je niet alleen iets veranderen, je hoort het ook.
@@ -35,7 +35,7 @@ Voor de planning, zie planning.md
 
 ## Technische verantwoording
 
-De knikkers komen eerst langs een ir-sensor, die moet bijhouden hoeveel knikkers er voorbijkomen. Dan houdt de eerste knikkerpoort de knikkers tegen voor bepaald aantal seconden. Vervolgens komen de knikkers langs de tweede ir-sensor en derde ir-sensor, die de tijd bijhouden van de gepasseerde knikker. De afgelegde weg wordt gedeeld door het verschil van de tijd en zo krijg je de snelheid. Daarna komt de knikker bij een splitsing links of rechts. Door op de rode knop te drukken, draait het middelste poortje. Dit zorgt ervoor dat de knikker de andere kant op kan. Ook gaat er een buzzer af wanneer er op de knop wordt gedrukt. De knikkers gaan via de linker- of rechterroute naar beneden en komen uiteindelijk weer bijeen. De knikkerbaan hoort met de widget bepaalde data uit te wisselen, zoals het aantal knikkers en de richting van het middelste poortje.
+De knikkers komen eerst langs een ir-sensor, die moet bijhouden hoeveel knikkers er voorbijkomen. Dan houdt de eerste knikkerpoort de knikkers tegen voor bepaald aantal seconden. Vervolgens komen de knikkers langs de tweede ir-sensor en derde ir-sensor, die de tijd bijhouden van de gepasseerde knikker. De afgelegde weg wordt gedeeld door het verschil van de tijd en zo krijg je de snelheid. Daarna komt de knikker bij een splitsing links of rechts. Door op de rode knop te drukken, draait het middelste poortje. Dit zorgt ervoor dat de knikker de andere kant op kan. Ook gaat er een buzzer af wanneer er op de knop wordt gedrukt. De knikkers gaan via de linker- of rechterroute naar beneden en komen uiteindelijk weer bijeen. De knikkerbaan wisselt met de widget bepaalde data uit, zoals het aantal knikkers en de richting van het middelste poortje.
 
 Uitdagingen die we tegenkwamen: Het werken met de widget bleek een probleem te zijn, zo is het niet geheel gelukt om de gegevens van de knikkerbaan te tonen in de widget. Ook hadden we moeite met onze ideeën uit te werken in de realiteit. We waren vrij lang bezig met de opstart en het opbouwen van de baan, waardoor we bijvoorbeeld niet meer iets hebben kunnen doen met de gegevens van de snelheidssensor. 
 
