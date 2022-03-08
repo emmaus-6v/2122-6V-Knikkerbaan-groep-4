@@ -11,7 +11,7 @@ class KnikkerPoort {
     int gradenOpen;
     int gradenDicht;
     bool isOpen = false;
-    int richting = 0;
+    int richting = 0; /* Richting van het middelste poortje (0 = knikkers gaan naar links, 1 = knikkers gaan naar rechts */
 
   public:
     KnikkerPoort(){}
@@ -34,11 +34,20 @@ class KnikkerPoort {
       poortServo.write(gradenOpen);
       isOpen = true;
     }
+  
+     void veranderRichting() { /*  functie die de waarde van de variabele "richting" verandert, wanneer het aangeroepen wordt */
+      if(richting == 0) {
+        richting = 1;
+      } else if (richting == 1) {
+        richting = 0;
+      }    
+    }
 
     bool getOpen() {
       return isOpen;
     }
-      bool getRichting() {
+
+     bool getRichting() { /* geeft de richting van het poortje */
       return richting;
     }
 };
