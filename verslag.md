@@ -25,6 +25,9 @@ Het eerste poortje kan de knikkers tegenhouden zodat er genoeg tijd is om te ver
 ### feature 5: Tweede poortje
 Het tweede poortje bij de splitsing van de baan zorgt ervoor dat er willekeurig knikkers naar rechts of naar links worden gestuurd. De gegevens over de richting van het poortje, worden doorgegeven aan de widet.
 
+### feature 6: De buzzer
+De buzzer gaat af wanneer er op de knop gedrukt wordt. Zo zie je niet alleen iets veranderen, je hoort het ook.
+
 ## Evaluaties van scrumplanningen:
 Voor de planning, zie planning.md
 
