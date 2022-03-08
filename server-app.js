@@ -58,7 +58,7 @@ function creeerNieuweRun(request, response) {
 // geeft laatste sensordata van de run terug 
 function getSensorData(request, response) {
   var huidigeRunID = geefHoogsteRunID();
-  var stmt = db.prepare('SELECT aantalKnikkers FROM sensorData WHERE run = ? ORDER BY stamp DESC');
+  var stmt = db.prepare('SELECT aantalKnikkers, poortPositie FROM sensorData WHERE run = ? ORDER BY stamp DESC');
   var data = stmt.get(huidigeRunID);
   response.status(200).send(data);
 }

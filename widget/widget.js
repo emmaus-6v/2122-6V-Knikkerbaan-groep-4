@@ -47,19 +47,20 @@ function draw() {
   // achtergrond: houtkleur, kies gerust iets anders
   background(60, 122, 222);
 
-  // de lijnen die ook op onze knikkerbaan zitten
-  stroke(45, 90, 170);
+  /* ------------- code voor de baan in de widget --------------- */
+
+   stroke(45, 90, 170);
   strokeWeight(10);
-  line(100,20,220,40); // wachtlijn
-  line(80,100,260,80); // 1e lijn
-  line(40,140,220,160); // 2e lijn
-  line(200,200,260,190); // mini lijn
-  line(100,230,200,220); // val lijn
-  line(40,230,130,280); // snelheidslijn
-  line(60,330,150,310); // lijn naar links
-  line(150,310,240,330); // lijn naar rechts
-  line(40,550,135,580); // opvanglijn links
-  line(165,580,260,550); // opvanglijn rechts
+  line(100,20,220,40);    // wachtlijn
+  line(80,100,260,80);    // 1e lijn
+  line(40,140,220,160);   // 2e lijn
+  line(200,200,260,190);  // mini lijn
+  line(100,230,200,220);  // val lijn
+  line(40,230,130,280);   // snelheidslijn
+  line(60,330,150,310);   // lijn naar links
+  line(150,310,240,330);  // lijn naar rechts
+  line(40,550,135,580);   // opvanglijn links
+  line(165,580,260,550);  // opvanglijn rechts
 
   // zigzag rechter kant
   line(260, 350, 170, 380);
@@ -75,6 +76,8 @@ function draw() {
   line(40, 460, 100, 490);
   line(100, 490, 70, 530);
 
+    /* ------------- code voor de poortjes en opmaak van de baan in de widget --------------- */
+
   var poort = new Poort(225, 25); // object code voor de poortjes
   poort.update();
   poort.display();
@@ -83,7 +86,7 @@ function draw() {
   poort.update();
   poort.display();
 
-  var poort = new Poort(225, 25); // object code voor de poortjes
+  var poort = new Poort(225, 25); 
   poort.update();
   poort.display();
 
@@ -148,21 +151,8 @@ function draw() {
   decoratie.update();
   decoratie.display();
 
-  /*for (var iets = 0; iets < 20; iets ++) {  // nog aanpassen: bloemmetje staat vast wanneer muis klinkt en los laat en de kleir moet random zijn alke ker dat je klikt
-    fill(50,200,random(0, 255));   //(random(140, 220), random(140, 220), random(140, 220));  
-    push();
-    translate(50, 50);
-    noStroke();
-    for (let i = 0; i < 10; i ++) {
-      ellipse(0, 1, 8, 40);
-      rotate(PI/random(3,7));
-    }
-  pop();
-  };
-*/
-
-  teller.show();
-  poortRichting.show();
+  teller.show();          // laat de teller zien in de widget
+  poortRichting.show();   // laat de richting van het poortje zien in de widget
 
 };
 

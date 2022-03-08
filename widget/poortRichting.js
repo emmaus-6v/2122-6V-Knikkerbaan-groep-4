@@ -13,7 +13,7 @@ class PoortRichting {
     noStroke();               // geen rand
     fill(255, 255, 255);      // wit
     textSize(14);
-    // print aantal knikkers bovenin
+    // print richting poort bovenin
     text(this.richting, this.x, this.y);
   }
 }
