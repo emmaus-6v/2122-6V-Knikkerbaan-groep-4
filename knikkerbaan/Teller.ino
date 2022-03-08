@@ -1,5 +1,7 @@
+/* Class voor de IR-sensors die fungeren als tellers */
+
 class Teller {
-  private:
+  private:            // deze gegevens mogen anderen niet kunnen zien
     int pin;
     bool wasOnderbroken;
     unsigned long laatstOnderbroken = 0;
