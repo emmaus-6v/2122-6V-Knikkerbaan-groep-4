@@ -26,17 +26,7 @@ Het eerste poortje kan de knikkers tegenhouden zodat er genoeg tijd is om te ver
 Het tweede poortje bij de splitsing van de baan zorgt ervoor dat er willekeurig knikkers naar rechts of naar links worden gestuurd. In de widget is te zien in welke richting het poortje is gericht en hoeveel knikkers er per kant zijn voorbij gekomen. Het is mogelijk om in de widget aan te passen of het poortje naar links of naar rechts staat. 
 
 ## Evaluaties van scrumplanningen:
-
-### week 43
-Deze week hebben we gewerkt aan het ontwerp van de knikkerbaan en hebben we nagedacht over wat er mogelijk is.
-Nu begrijpen we wat de bedoeling is. Deze week hebben we ons goed aan de planning kunnen houden.
-
-### week 44
-We hebben er deze week voor gekozen om niet al te veel in te plannen ivm met de aankomende toetsweek. 
-
-### week 45
-
-### week ...
+Voor de planning, zie planning.md
 
 
 
