@@ -11,7 +11,6 @@ Buzzer buzzerA = Buzzer();
 
 int serverContactInterval = 15;                // 15 seconden
 unsigned long tijdVoorContactMetServer = 0;
-//int poortOpen = false;
 
 void setup() {
   Serial.begin(9600);
