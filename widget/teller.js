@@ -1,3 +1,4 @@
+/* class voor de teller in de widget */ 
 class Teller {
   x;
   y;
