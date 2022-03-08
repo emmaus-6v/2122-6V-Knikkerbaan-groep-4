@@ -1,6 +1,5 @@
-
-// globale variabelen
-var aantalKnikkersBoven = 0;    // aantal knikkers dat bovenin is binnengekomen
+/* Globale variabelen */ 
+var aantalKnikkersBoven = 0;    // aantal knikkers dat bovenin is binnengekomen, in het begin is dit natuurlijk 0
 var wachttijd = 15;             // wachttijd voor het poortje in seconden
 const UPDATE_INTERVAL = 5000;   // tijd in milliseconden tussen het door widget opvragen van gegevens
 var button;
@@ -14,6 +13,7 @@ var wachtijdInput;
  * de code in deze functie wordt eenmaal uitgevoerd,
  * als p5js wordt gestart
  */
+
 function setup() {
   // Maak het canvas van je widget
   createCanvas(300, 600);
