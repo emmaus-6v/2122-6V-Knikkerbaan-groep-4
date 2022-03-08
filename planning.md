@@ -78,5 +78,5 @@
 # Planning - Week 10
 - Fe class aangemaakt voor decoratie en verder aan de widget gewerkt 
 - .
-- .
+- Allemaal reflectie stukje geschreven 
 
