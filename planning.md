@@ -77,6 +77,9 @@
 
 # Planning - Week 10
 - Fe class aangemaakt voor decoratie en verder aan de widget gewerkt 
-- .
+- Fre buzzer toegevoegd
+- Luuk commentaar toegevoegd
+- Naomi widget afgemaakt
+- Op school: demo
 - Allemaal reflectie stukje geschreven 
 
