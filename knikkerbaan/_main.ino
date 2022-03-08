@@ -12,6 +12,7 @@ Buzzer buzzerA = Buzzer();
 int serverContactInterval = 15;                // 15 seconden
 unsigned long tijdVoorContactMetServer = 0;
 
+/* Setup-code die ervoor zorgt dat poortjes en buzzer kunnen werken */
 void setup() {
   Serial.begin(9600);
   poortBoven.begin(BOVEN_POORT_PIN, 10, 110);
@@ -29,27 +30,28 @@ void setup() {
 
 
 void loop() {
-  // laat de teller detecteren:
+  
+  /* laat de teller detecteren: */
   tellerA.update();
   tellerB.update();
   tellerC.update();
 
-  // knop
+  /* dit zorgt ervoor dat wanneer je de knop indrukt het poortje van richting veranderd */
   bool switchState = digitalRead(switchPin);
-  if (switchState == HIGH) {
-    if (switchState != previousSwitchState) {
-      Serial.println("knop wordt ingedrukt"); // Knop wordt ingedrukt, het middelste poortje draait
-      if (poortMidden.getOpen() == true) {
-        poortMidden.sluit();
-        poortMidden.veranderRichting(); // "richting" verandert
-        buzzerA.start(); // Buzzer maakt geluid wanneer er op de knop wordt gedrukt
+  if (switchState == HIGH) {                      // Als het knopje wordt ingedrukt
+    if (switchState != previousSwitchState) {     // en de nieuwe richting niet hetzelfde is als de oude richting,
+      Serial.println("knop wordt ingedrukt");    
+      if (poortMidden.getOpen() == true) {        // dan wanneer het poortje open is
+        poortMidden.sluit();                      // gaat het dicht.
+        poortMidden.veranderRichting();           // "richting" verandert
+        buzzerA.start();                          // Buzzer maakt geluid wanneer er op de knop wordt gedrukt
       }
       else {
-        poortMidden.open();
+        poortMidden.open();                       // Wanneer het poortje dicht was gaat het nu open.
       }
     }
   }
-  previousSwitchState = switchState;
+  previousSwitchState = switchState;              // Hierdoor is het mogelijk om opnieuw het knopje in te drukken. 
 
   // pauzeer de knikkerbaan als het tijd is voor contact met server
   if (millis() > tijdVoorContactMetServer && poortBoven.getOpen()) {
@@ -103,17 +105,18 @@ void loop() {
     poortBoven.open();
   }
 
-
-  bool aantalKnikkersB = tellerB.getAantal();
-  int aantalKnikkersBTijd = 0;
-  if (aantalKnikkersB != previousaantalKnikkersB) {
-    Serial.println("knikker komt voorbij B");
-    aantalKnikkersBTijd = millis();
+  /* IR-sensor B */
+  bool aantalKnikkersB = tellerB.getAantal();       // Het aantal knikkers wat voorbij B is gegaan wordt opgevraagd
+  int aantalKnikkersBTijd = 0;                      
+  if (aantalKnikkersB != previousaantalKnikkersB) { // Als het opgevraagde aantal niet hetzelfde is als het aantal daarvoor,
+    Serial.println("knikker komt voorbij B");       // dan is er dus een knikker voorbij gegaan.
+    aantalKnikkersBTijd = millis();                 // Wanneer de kniker dus voorbij komt wordt de tijd bijgehouden. 
   }
 
-  previousaantalKnikkersB = aantalKnikkersB;
+  previousaantalKnikkersB = aantalKnikkersB;        // <-- Hierdoor kunnen van nieuwe knikkers ook de tijd worden bijgehouden
 
-  bool aantalKnikkersC = tellerC.getAantal(); 
+  /* IR-sensor C */ 
+  bool aantalKnikkersC = tellerC.getAantal();       // Sensor C werkt op dezelfde manier als B.
   int aantalKnikkersCTijd = 0;
   if (aantalKnikkersC != previousaantalKnikkersC) {
     Serial.println("knikker komt voorbij C");
@@ -121,7 +124,10 @@ void loop() {
   }
 
   previousaantalKnikkersC = aantalKnikkersC;
- 
+  
+  /* Met deze formule kun je de snelheid berekenen van de knikkers, 
+  door de lengte van de baan te delen door het verschil in tijd,
+  gemeten door IR-sensor B en C */
   snelheidKnikker = lengteKnikkerbaan / (aantalKnikkersCTijd - aantalKnikkersBTijd);
   
 
