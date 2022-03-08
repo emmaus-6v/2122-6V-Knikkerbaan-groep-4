@@ -15,14 +15,14 @@ unsigned long tijdVoorContactMetServer = 0;
 
 void setup() {
   Serial.begin(9600);
-  poortBoven.begin(BOVEN_POORT_PIN, 10, 90);
+  poortBoven.begin(BOVEN_POORT_PIN, 10, 110);
   poortMidden.begin(MIDDEN_POORT_PIN, 10, 90);
   buzzerA.begin(BUZZER_A_PIN, 1000, 500);
 
 
-  wifi.begin();
+ // wifi.begin();
 
-  wifi.stuurVerzoek("/api/set/nieuwerun", "");
+ // wifi.stuurVerzoek("/api/set/nieuwerun", "");
 
   poortBoven.open();
   poortMidden.open();
@@ -70,12 +70,12 @@ void loop() {
     data += tellerA.getAantal();
     data += tellerB.getAantal();
     data += tellerC.getAantal();
-    data += "poortPositie";
+    data += "&poortPositie";
 
-
+/*
     // stuur deze data naar het juiste adres
     wifi.stuurVerzoek("/api/set/sensordata", data.c_str());
-/*
+
     // vraag bij de server de nieuwe instellingen op:
     String serverAntwoord = wifi.stuurVerzoek("/api/get/instellingen", "");
 
@@ -125,7 +125,7 @@ void loop() {
 
   previousaantalKnikkersC = aantalKnikkersC;
   
-  snelheidKnikker = lengteKnikkerbaan / (aantalKnikkersCTijd - aantalKnikkersBTijd)
+  snelheidKnikker = lengteKnikkerbaan / (aantalKnikkersCTijd - aantalKnikkersBTijd);
   
 
 }
