@@ -1,3 +1,5 @@
+/* class voor de richting van de poort in de widget */ 
+
 class PoortRichting {
   x;
   y;
