@@ -23,7 +23,7 @@ In de browser kan met een URL een widget worden geladen. Deze geeft de knikkerba
 Het eerste poortje kan de knikkers tegenhouden zodat er genoeg tijd is om te verbinden met de server en alle gegevens te verzamelen en te verzenden. Terwijl het poortje dicht is gaan er dus geen knikkers door de baan, waardoor de doorgegeven waardes kloppend zijn. 
 
 ### feature 5: Tweede poortje
-Het tweede poortje bij de splitsing van de baan zorgt ervoor dat er willekeurig knikkers naar rechts of naar links worden gestuurd. In de widget is te zien in welke richting het poortje is gericht en hoeveel knikkers er per kant zijn voorbij gekomen.
+Het tweede poortje bij de splitsing van de baan zorgt ervoor dat er willekeurig knikkers naar rechts of naar links worden gestuurd. De gegevens over de richting van het poortje, worden doorgegeven aan de widet.
 
 ## Evaluaties van scrumplanningen:
 Voor de planning, zie planning.md
