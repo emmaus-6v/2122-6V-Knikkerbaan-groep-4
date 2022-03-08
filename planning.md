@@ -79,7 +79,7 @@
 - Fe class aangemaakt voor decoratie en verder aan de widget gewerkt 
 - Fre buzzer toegevoegd
 - Luuk commentaar toegevoegd
-- Naomi widget afgemaakt
+- Naomi widget afgemaakt en overal commentaar toevoegen en rommel code opruimen
 - Op school: demo
 - Allemaal reflectie stukje geschreven 
 
