@@ -19,7 +19,7 @@ function setup() {
   createCanvas(300, 600);
 
   teller = new Teller(150, 50);
-  poortPositie = new Poortpositie(300, 50);
+  poortRichting = new PoortRichting(300, 50);
 
   // maak een button en stel deze in
   button = createButton('verstuur');
@@ -162,7 +162,7 @@ function draw() {
 */
 
   teller.show();
-  poortPositie.show();
+  poortRichting.show();
 
 };
 
