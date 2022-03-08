@@ -4,7 +4,7 @@
 ---
 
 ## Inleiding
-Voor onze eindopdracht hebben wij een knikkerbaan gemaakt. Het thema van onze knikkerbaan is waterval. Door middel van poortjes en andere obstacels worden de knikkers mee met de waterval naar beneden genomen waar ze door allerlei opstakels worden opgevangen. Hierdoor worden op het einde bijvoorbeeld de knikkers in 2 banen geleid, waardoor de knikker dus niet één, maar twee routes kan bevaren. De poortjes worden door de Arduino aangestuurd. Daarnaast heeft de knikkerbaan een widget. Hieronder lees je welke features onze knikkerbaan heeft, een technische verantwoording, en kun je lezen hoe wij zelf de opdracht ervaren hebben.
+Voor onze eindopdracht hebben wij een knikkerbaan gemaakt. Het thema van onze knikkerbaan is waterval. Door middel van poortjes en andere obstakels worden de knikkers mee met de waterval naar beneden genomen waar ze door allerlei opstakels worden opgevangen. Hierdoor worden op het einde bijvoorbeeld de knikkers in 2 banen geleid, waardoor de knikker dus niet één, maar twee routes kan bevaren. De poortjes worden door de Arduino aangestuurd. Daarnaast heeft de knikkerbaan een widget. Hieronder lees je welke features onze knikkerbaan heeft, een technische verantwoording, en kun je lezen hoe wij zelf de opdracht ervaren hebben.
 
 
 ## Features
@@ -29,8 +29,9 @@ Het tweede poortje bij de splitsing van de baan zorgt ervoor dat de knikkers naa
 De buzzer gaat af wanneer er op de knop gedrukt wordt. Zo zie je niet alleen iets veranderen, je hoort het ook.
 
 ## Evaluaties van scrumplanningen:
-Voor de planning, zie planning.md
+In het begin hadden we een beetje moeite met het begrijpen van de opdracht. Dit probleem hebben we opgelost door veel uitleg te vragen, de opdracht met elkaar te bespreken en hebben we de video's bespreken. Vervolgens hebben we onze ideeën uitgewerkt in een ontwerp. Na de code te hebben geschreven en het bord te hebben gebouwd kwam alles bij elkaar. 
 
+We hebben veel gebruik gemaakt van onze planning en het scrumboard. Door de kolommen van taken die gedaan moetn worden, bezig zijn en klaar zijn, was het heel overzichtelijk waar we nu precies mee bezig waren. We hebben deze grote opdracht in veel kleine stukken verdeeld, waardoor het veel overzichterlijker werd en iedereen wat kon doen. 
 
 
 ## Technische verantwoording
