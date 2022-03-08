@@ -11,6 +11,7 @@ class KnikkerPoort {
     int gradenOpen;
     int gradenDicht;
     bool isOpen = false;
+    int richting = 0;
 
   public:
     KnikkerPoort(){}
